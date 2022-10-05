@@ -1,0 +1,42 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+margin:30px;
+border: 1px solid black;
+display: block;
+width: auto;
+}
+ 
+div {
+width: 33.3%;
+display: inline-block;
+height: auto;
+position: relative;
+}
+  
+p {
+margin:0;
+display: block;
+width: 100%;
+word-break: break-word;
+}
+  
+.text {
+position: relative;
+vertical-align: top;
+}
+  
+.img{
+vertical-align: bottom;
+}
+  
+img {
+display: block; 
+width: 100%;
+} 
+  
+.tu {
+display: block;
+}
